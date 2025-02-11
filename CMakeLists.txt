@@ -26,4 +26,4 @@ ExternalProject_Add(
              "-DNO_X86=${NO_X86}")
 
 # dummy file for install target
-install(FILES README.md DESTINATION share/cmeel-${NAME}/)
+install(FILES "README.md" DESTINATION "share/cmeel-${NAME}/")
