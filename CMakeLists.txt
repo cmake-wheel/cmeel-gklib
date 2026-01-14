@@ -2,12 +2,12 @@ cmake_minimum_required(VERSION 3.30)
 
 set(ORG KarypisLab)
 set(NAME GKlib)
-set(VERSION 8bd6bad750b2b0d90800c632cf18e8ee93ad72d7)
+set(VERSION 6e7951358fd896e2abed7887196b6871aac9f2f8)
 set(EXT tar.gz)
-set(SHA256 e1d59de12336731e6dde8465f05de7b907fae5d72c921cffcde217a89eaab654)
+set(SHA256 42c52e58408ad06dc23c2a052eea529b269287ea8a6f3f6cdc47f18d50b2a177)
 set(TAG_PREFIX "")
 
-project("cmeel-${NAME}" VERSION 0.0.1)
+project("cmeel-${NAME}" VERSION 0.0.2)
 
 if(CMAKE_SYSTEM_PROCESSOR MATCHES "(x86)|(X86)|(amd64)|(AMD64)")
   set(NO_X86 OFF)
